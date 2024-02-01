@@ -1,0 +1,65 @@
+
+  const [password, setPassword] = useState('*****')
+
+  const[showIcon1, setShowIcon1] = useState(false)
+} 
+  const show = ()=>{
+    setPassword('123456789')
+    setShowIcon1(!showIcon1)
+  }
+
+   const hide = ()=>{
+     setPassword('*****')
+     setShowIcon1(!showIcon1)
+   }
+
+
+  return (
+    <div>
+        <h1>{password}</h1>
+
+        {!showIcon1 ?<FaEyeSlash onClick={hide} /> : <FaEye onClick={show} />}
+
+    </div>
+  )
+  
+
+  const show = ()=>{
+    setPassword('123456789')
+    setShowIcon1(!showIcon1)
+  }
+
+   const hide = ()=>{
+     setPassword('*****')
+     setShowIcon1(!showIcon1)
+   }
+
+
+
+   
+const page = () => {
+
+    const [password, setPassword] = useState('')
+  
+    const[showPassword, setShowPassword] = useState(false)
+  
+    const toggleVisibilty = ( ) => {
+      setShowIcon1(!showIcon1)
+    }
+  } 
+   
+    return (
+      <div>
+          <h1>{password}</h1>
+  
+          {!showIcon1 ?<FaEyeSlash onClick={hide} /> : <FaEye onClick={show}/> }
+  
+      </div>
+    )
+    
+  
+  
+  export default page
+
+  
+  

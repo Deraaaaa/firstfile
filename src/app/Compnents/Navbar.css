@@ -1,0 +1,33 @@
+
+
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+.nav{
+    background-color: blue;
+    display: flex;
+    padding: 10px 20%; 
+     /* The 10px is for the up and down and the % is for the sides */ 
+    align-items: center;
+
+}
+
+.navDiv{
+    display:flex;
+    margin-left: auto;
+    gap: 20px;
+    align-items: center;
+}
+
+.navDiv p{
+    font-size: 15px;
+    color: white;
+}
+
+.navDiv input{
+    padding:10px;
+    border: none;
+}

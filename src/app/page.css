@@ -1,0 +1,24 @@
+.page{
+    display: flex;
+    align-items: center;
+  }
+  
+  /* .page input {
+    flex: 1;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+  } */
+  
+  .page button {
+    padding: 5px;
+    margin-left: -1px;
+    border: 1px solid #ccc;
+    border-radius: 0 4px 4px 0;
+    background-color: #f0f0f0;
+    cursor: pointer;
+  }
+  
+  .page button:hover {
+    background-color: #e0e0e0;
+  }
